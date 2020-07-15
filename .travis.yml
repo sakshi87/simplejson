@@ -26,7 +26,7 @@ matrix:
   - python: 3.8
     services:
     - docker
-    env: BUILD_SDIST=true
+    env: BUILD_WHEEL=true
   - python: 3.8
     arch: arm64
     services:
