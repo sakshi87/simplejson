@@ -26,12 +26,12 @@ matrix:
   - python: 3.8
     services:
     - docker
-    env: BUILD_WHEEL=true
+    env: BUILD_SDIST=true
   - python: 3.8
     arch: arm64
     services:
     - docker
-    env: BUILD_SDIST=true
+    env: BUILD_WHEEL=true
   - name: Python 2.7.17 on macOS
     os: osx
     language: objective-c
